@@ -3,6 +3,7 @@
   hosts: 172.31.40.23
   become: false
   become_method: sudo
+  connection: local
   gather_facts: true
   roles:
    - ec2
